@@ -1,0 +1,183 @@
+You are a senior software architect and AI-assisted development expert.
+
+Your task is to analyze the complete project and generate a professional AI_CONTEXT folder structure for long-term AI-assisted development.
+
+Create the following files inside AI_CONTEXT:
+
+1. PROJECT_OVERVIEW.md
+2. CURRENT_STATUS.md
+3. TODO.md
+4. ARCHITECTURE.md
+5. API_DOCS.md
+6. DB_SCHEMA.md
+7. FEATURES.md
+8. BUGS.md
+9. DECISIONS.md
+10. DEPLOYMENT.md
+11. SECURITY.md
+12. CODING_GUIDELINES.md
+13. CHAT_SUMMARY.md
+14. PROMPTS.md
+15. START_HERE.md
+
+--------------------------------------------------
+ANALYSIS INSTRUCTIONS
+--------------------------------------------------
+
+Analyze the entire project including:
+
+- Folder structure
+- Backend architecture
+- Frontend architecture
+- Database models
+- APIs
+- Services
+- Authentication system
+- Environment variables
+- Deployment files
+- Docker setup
+- CI/CD setup
+- External integrations
+- AI/ML modules
+- Queues and caching
+- WebSockets
+- Payment gateways
+- Current bugs
+- Incomplete modules
+- Existing coding style
+- Reusable utilities
+- Existing business logic
+
+Read and understand:
+- README.md
+- requirements.txt
+- package.json
+- docker-compose.yml
+- .env.example
+- all apps/modules
+- routes/apis
+- models/schema
+- services/utils/helpers
+- middleware
+- websocket logic
+- background jobs
+- deployment configs
+
+--------------------------------------------------
+FILE GENERATION RULES
+--------------------------------------------------
+
+PROJECT_OVERVIEW.md
+- Explain project purpose
+- Explain tech stack
+- Explain user roles
+- Explain major modules
+- Explain business goals
+
+CURRENT_STATUS.md
+- Mention completed modules
+- Mention work in progress
+- Mention pending features
+- Mention blockers/issues
+
+TODO.md
+- Generate actionable development tasks
+- Separate by priority
+- Mention technical debt if found
+
+ARCHITECTURE.md
+- Explain high-level architecture
+- Explain module communication
+- Explain request flow
+- Explain scalability strategy
+- Explain microservices if present
+
+API_DOCS.md
+- Document all APIs
+- Mention method
+- Mention request/response
+- Mention authentication requirements
+
+DB_SCHEMA.md
+- Document all models/tables
+- Mention relationships
+- Mention indexes if present
+
+FEATURES.md
+- List all implemented features
+- Mention incomplete features
+
+BUGS.md
+- Detect possible bugs/issues
+- Mention risky code areas
+- Mention performance issues
+
+DECISIONS.md
+- Document important architecture decisions
+- Mention why technologies were chosen
+
+DEPLOYMENT.md
+- Explain local setup
+- Explain production deployment
+- Explain Docker setup
+- Explain environment variables
+
+SECURITY.md
+- Analyze security practices
+- Mention vulnerabilities if found
+- Mention auth flow
+- Mention rate limiting/cors/jwt usage
+
+CODING_GUIDELINES.md
+- Detect coding patterns
+- Explain naming conventions
+- Explain folder conventions
+- Explain API response structure
+
+CHAT_SUMMARY.md
+- Generate summary of current project state
+- Mention next development steps
+
+PROMPTS.md
+- Generate reusable prompts for:
+  - backend development
+  - frontend development
+  - debugging
+  - optimization
+  - refactoring
+  - testing
+  - deployment
+
+START_HERE.md
+- Create onboarding instructions for future AI agents
+- Explain which files to read first
+- Explain project rules
+- Explain architecture constraints
+
+--------------------------------------------------
+IMPORTANT RULES
+--------------------------------------------------
+
+- Maintain professional markdown formatting
+- Keep documentation concise but detailed
+- Do not hallucinate missing architecture
+- Mention assumptions clearly
+- Use scalable software engineering practices
+- Focus on maintainability
+- Focus on AI-to-AI context transfer
+- Make files reusable across AI IDEs
+- Preserve existing project architecture
+- Detect anti-patterns if present
+
+--------------------------------------------------
+FINAL OUTPUT FORMAT
+--------------------------------------------------
+
+Generate:
+- complete AI_CONTEXT folder structure
+- all markdown files
+- production-ready documentation
+- reusable AI prompts
+- onboarding instructions
+
+The generated context should allow another AI IDE to fully understand the project without previous chat history.
